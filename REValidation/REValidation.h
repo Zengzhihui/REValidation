@@ -24,12 +24,20 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "REValidator.h"
-#import "NSError+REValidation.h"
-#import "REPresenceValidator.h"
-#import "RELengthValidator.h"
-#import "REEmailValidator.h"
-#import "REURLValidator.h"
+#import <REValidation/REValidator.h>
+#import <REValidation/NSError+REValidation.h>
+#import <REValidation/REPresenceValidator.h>
+#import <REValidation/RELengthValidator.h>
+#import <REValidation/REEmailValidator.h>
+#import <REValidation/REURLValidator.h>
+
+//! Project version number for REValidation.
+FOUNDATION_EXPORT double REValidationVersionNumber;
+
+//! Project version string for REValidation.
+FOUNDATION_EXPORT const unsigned char REValidationVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <REValidation/PublicHeader.h>
 
 @interface REValidation : NSObject
 
